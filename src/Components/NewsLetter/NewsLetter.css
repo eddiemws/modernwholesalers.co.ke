@@ -1,0 +1,137 @@
+.news-letter {
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #eae7ea 0%, #e1ffea22 60%);
+    /* #fde1ff */
+    gap: 30px;
+}
+
+.news-letter h1 {
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.news-letter p {
+    color: #454545;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* .news-letter div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 730px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+} */
+
+/* Adjust WhatsApp image size */
+.whatsapp-image {
+    height: 70px;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.19s ease-in-out;
+}
+
+.whatsapp-image:hover {
+    transform: scale(1.5);
+}
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1280px) {
+    .news-letter {
+        padding: 0px 80px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+    .news-letter h1 {
+        font-size: 36px;
+    }
+    .news-letter p {
+        font-size: 16px;
+    }
+    .news-letter div {
+        width: 600px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .news-letter h1 {
+        font-size: 30px;
+    }
+    .news-letter p {
+        font-size: 14px;
+    }
+    .news-letter div {
+        width: 500px;
+        height: 60px;
+    }
+    .whatsapp-image {
+        height: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .news-letter {
+        height: 35vh;
+    }
+    .news-letter h1 {
+        font-size: 18px;
+    }
+    .news-letter p {
+        font-size: 12px;
+    }
+    .news-letter div {
+        width: 400px;
+        height: 50px;
+    }
+    .whatsapp-image {
+        height: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .news-letter {
+        height: 25vh;
+        width: 95%;
+        padding-top: 10px;
+        gap: 15px;
+        /* border-radius: 20px; */
+
+    }
+    .news-letter h1 {
+        font-size: 16px;
+    }
+    .news-letter p {
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+    .news-letter div {
+        width: 290px;
+        height: auto;
+    }
+    .whatsapp-image {
+        height: 55px;
+    }
+}
