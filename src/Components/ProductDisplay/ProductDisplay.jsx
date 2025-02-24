@@ -32,11 +32,13 @@ const ProductDisplay = (props) => {
       <div className="productdisplay-right">
         <h1>{product.name}</h1>
         <div className="productdisplay-right-star">
+        <a href="https://wa.me/254786791676" target="_blank" rel="noopener noreferrer">
         <img 
             src="https://i.postimg.cc/6p1LGq0t/whats-app-order.gif" 
             alt="Order on WhatsApp" 
             className="whatsapp-image"
           />
+          </a>
           
         </div>
         <div className="productdisplay-right-prices">
