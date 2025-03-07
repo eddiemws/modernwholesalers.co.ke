@@ -39,7 +39,7 @@ const categories = [
   "Clothing", "Shoes", "Accessories", "Beauty Products"
 ];
 
-const bannerImages = [banner_furniture, banner_kitchen, banner_beddings, banner_electronics];
+const bannerImages = [banner_furniture, banner_kitchen, banner_beddings, banner_electronics, "https://i.postimg.cc/28x3Fy10/furniture-banner.png"];
 
 const CategoryBannerSection = () => {
   const [activeCategory, setActiveCategory] = useState(null);
