@@ -20,13 +20,13 @@ const Footer = () => {
           <div>
   <h3>Contact Us</h3>
   <p>
-    <a href="https://wa.me/254786791676" target="_blank" rel="noopener noreferrer">
-      +254 786 791 676
+    <a href="https://wa.me/254715412841" target="_blank" rel="noopener noreferrer">
+      +254 715 412 841
     </a>
   </p>
   <p>
-    <a href="https://wa.me/254715412841" target="_blank" rel="noopener noreferrer">
-      +254 715 412 841
+    <a href="https://wa.me/254712538200" target="_blank" rel="noopener noreferrer">
+      +254 712 538 200
     </a>
   </p>
 </div>
@@ -56,7 +56,7 @@ const Footer = () => {
           <FaGlobe className="footer-icon" />
           <div>
             <h3>Website</h3>
-            <p><a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">yourwebsite.com</a></p>
+            <p><a href="https://modernwholesalers.co.ke" target="_blank" rel="noopener noreferrer">www.modernwholesalers.co.ke</a></p>
           </div>
         </li>
       </ul>

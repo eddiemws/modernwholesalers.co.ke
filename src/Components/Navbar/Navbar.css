@@ -139,7 +139,7 @@ background: #da3d3d;
   
   .search-results {
     position: absolute;
-    background: red;
+    background: #c9c9c9;
     width: 100%;
     border: 1px solid #ccc;
     max-height: 200px;
