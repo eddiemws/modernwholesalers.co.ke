@@ -2,7 +2,10 @@ import React, { useContext } from 'react';
 import './CartItems.css';
 import { ShopContext } from '../../Context/Context';
 import remove_icon from '../Assets/cart_cross_icon.png';
-import { allItems } from '../../Components/CategorySection/Category'; // ✅ Import allItems
+import { allItems } from '../../Components/CategorySection/Category.jsx'; // ✅ Import allItems
+import '../../Components/Assets/all_items.jsx';
+
+
 
 const CartItems = () => {
     const { getTotalCartAmount, cartItems, removeFromCart } = useContext(ShopContext);

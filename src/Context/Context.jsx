@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect } from "react";
-import { allItems } from "../Components/CategorySection/Category"; // ✅ Use allItems
+import { allItems } from "../Components/Assets/all_items.jsx"; // ✅ Use allItems
+import '../Components/CategorySection/Category.jsx'
 
 export const ShopContext = createContext(null);
 

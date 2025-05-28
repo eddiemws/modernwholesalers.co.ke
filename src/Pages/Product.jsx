@@ -4,9 +4,11 @@ import Breadcrum from '../Components/Breadcrums/Breadcrum';
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 import DescriptionBox from '../Components/DescriptionBox/DescriptionBox';
 import RelatedProducts from '../Components/RelatedProducts/RelatedProducts';
+import '../../src/Components/CategorySection/Category.jsx'
+
 
 // Import the same dataset used in CategoryBannerSection.jsx
-import { allItems } from '../Components/CategorySection/Category'; // Adjust path as necessary
+import { allItems } from '../Components/Assets/all_items.jsx'; // Adjust path as necessary
 
 const Product = () => {
   const { productId } = useParams();

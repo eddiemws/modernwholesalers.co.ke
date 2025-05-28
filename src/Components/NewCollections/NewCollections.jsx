@@ -4,7 +4,9 @@ import './NewCollections.css'
 import React from 'react'
 // import new_collection from '../Assets/new_collections'
 import Item from '../Item/Item'
-import { allItems } from '../CategorySection/Category'
+import { allItems } from '../Assets/all_items'
+import '../CategorySection/Category.jsx'
+
 
 const NewCollections = () => {
   return (

@@ -2,7 +2,9 @@ import React from 'react'
 import './RelatedProducts.css'
 // import data_product from '../Assets/data'
 import Item from '../Item/Item'
-import { allItems } from '../CategorySection/Category'
+import { allItems } from '../Assets/all_items.jsx'
+import '../CategorySection/Category.jsx'
+
 
 const RelatedProducts = () => {
   return (
