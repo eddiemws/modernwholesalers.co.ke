@@ -1,0 +1,162 @@
+/* MAIN CONTAINER */
+.offers-container {
+  margin-top: 25px;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #8b0000, #006400);
+  padding: 25px 0;
+  position: relative;
+}
+
+/* TITLE */
+.offers-title {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  text-shadow: 0 0 10px red, 0 0 15px green;
+}
+
+/* GLOW LINES */
+.offers-container::before,
+.offers-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, red, yellow, green, blue, purple);
+  animation: glowLine 5s linear infinite;
+}
+
+.offers-container::after {
+  top: unset;
+  bottom: 0;
+}
+
+@keyframes glowLine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* SCROLLING ROW */
+.scroll-wrapper {
+  display: flex;
+  width: max-content;
+  animation: scrollOffers 100s linear infinite;
+}
+
+@keyframes scrollOffers {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* SINGLE OFFER ITEM */
+.offer-item {
+  width: 160px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 0 12px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.offer-item:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(255,255,255,0.6);
+}
+
+/* IMAGE */
+.offer-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* NAME */
+.offer-name {
+  margin: 8px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* PRICES */
+.offer-prices {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* NEW PRICE */
+.offer-new {
+  color: #00ff6a;
+  font-weight: bold;
+}
+
+/* OLD PRICE */
+.offer-old {
+  color: #ff3b3b;
+  text-decoration: line-through;
+}
+
+/* ❄ SNOWFLAKE STYLE (OPTIONAL) */
+.snowflake {
+  position: fixed;
+  top: -10px;
+  color: white;
+  font-size: 1em;
+  user-select: none;
+  pointer-events: none;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% { transform: translateY(-10px); opacity: 1; }
+  100% { transform: translateY(110vh); opacity: 0; }
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) {
+  .offer-item {
+    width: 130px;
+    padding: 8px;
+  }
+
+  .offer-item img {
+    height: 120px;
+  }
+
+  .offers-title {
+    font-size: 20px;
+  }
+}
+
+/* ❄ Snowflake falling animation */
+.snowflake {
+  position: fixed;
+  top: -10px;
+  color: white;
+  font-size: 20px;
+  pointer-events: none;
+  animation-name: fallSnow;
+  animation-timing-function: linear;
+  z-index: 9999;
+}
+
+@keyframes fallSnow {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+

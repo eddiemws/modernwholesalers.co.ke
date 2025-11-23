@@ -7,11 +7,14 @@ import React from 'react'
 import NewCollections from '../Components/NewCollections/NewCollections.jsx'
 import NewsLetter from '../Components/NewsLetter/NewsLetter.jsx'
 import CategoryBannerSection from '../Components/CategorySection/Category.jsx'
+import CurrentOffers from '../Components/CurrentOffers/CurrentOffers.jsx'
 
 const Shop = () => {
   return (
     <div>
+      <CurrentOffers/>
       <CategoryBannerSection/>
+      
       {/* <Hero/> */}
       {/* <Popular/>
       <Offers/> */}
