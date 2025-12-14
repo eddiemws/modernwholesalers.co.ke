@@ -44,7 +44,7 @@
 .scroll-wrapper {
   display: flex;
   width: max-content;
-  animation: scrollOffers 100s linear infinite;
+  animation: scrollOffers 175s linear infinite;
 }
 
 @keyframes scrollOffers {

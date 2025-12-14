@@ -8,7 +8,7 @@ const NewsLetter = () => {
       <p>Click below to order directly on WhatsApp</p>
 
       <div className='whatsapp'>
-        <a href="https://wa.me/254786791676" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/254715412841" target="_blank" rel="noopener noreferrer">
           <img 
             src="https://i.postimg.cc/6p1LGq0t/whats-app-order.gif" 
             alt="Order on WhatsApp" 

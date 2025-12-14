@@ -50,20 +50,22 @@ const ProductDisplay = (props) => {
           {product.description}
         </div>
         <div className="productdisplay-right-size">
-          <h1>Select Size</h1>
+          <h1>Color</h1>
           <div className="productdisplay-right-sizes">
-            <div className="">S</div>
-            <div className="">M</div>
-            <div className="">L</div>
-            <div className="">XL</div>
-            <div className="">XXL</div>
+
+            {/* future me, understand that this aint the right way to name class names but this will do for now i am tired. */}
+            <div className="greyy"></div>
+            <div className="bluee"></div>
+            <div className="whitee"></div>
+            <div className="brownn"></div>
+            <div className="greenn"></div>
           </div>
         </div>
         <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
         
         
-        <p className="productdisplay-right-category"><span>Category :</span>Women, T-Shirt, Crop Top</p>
-        <p className="productdisplay-right-category"><span>Tags :</span>Modern , Latest,</p>
+        <p className="productdisplay-right-category"><span>Category :</span>{product.category}</p>
+        <p className="productdisplay-right-category"><span>Tags :</span>{product.name}</p>
       </div>
     </div>
   )

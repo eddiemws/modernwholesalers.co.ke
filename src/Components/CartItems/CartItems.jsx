@@ -6,7 +6,7 @@ import { allItems } from '../../Components/CategorySection/Category.jsx'; // ✅
 import '../../Components/Assets/all_items.jsx';
 
 // ===== TEST WHATSAPP NUMBER =====
-const WHATSAPP_TEST_NUMBER = "254735551136";
+const WHATSAPP_TEST_NUMBER = "254715412841";
 
 // ===== HELPER TO FORMAT CURRENCY =====
 const formatKES = (amount) => `Sh.${Number(amount).toLocaleString()}`;

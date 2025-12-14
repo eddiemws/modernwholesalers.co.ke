@@ -76,9 +76,34 @@
 
 }
 
+.productdisplay-right-sizes greyy{
+    background: red;
+    border:  1px solid #ebebeb;
+}
+
+.greyy {
+     background: grey;
+}
+
+.bluee {
+     background: blue;
+}
+
+.whitee {
+     background: white;
+}
+
+.greenn {
+     background: green;
+}
+
+.brownn {
+     background: rgba(165, 42, 42, 0.267);
+}
+
 .productdisplay-right-sizes div {
     padding: 18px 24px;
-    background: #fbfbfb;
+    /* background: #fbfbfb; */
     border:  1px solid #ebebeb;
     border-radius: 3px;
     cursor: pointer;
