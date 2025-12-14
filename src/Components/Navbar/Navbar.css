@@ -28,12 +28,14 @@
 .nav-logo{
     display: flex;
     align-items: center;
+    cursor: pointer;
 
 }
 .nav-logo p {
     color: #171717;
     font-size: 38px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .nav-menu{

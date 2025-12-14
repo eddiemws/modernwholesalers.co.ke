@@ -69,8 +69,13 @@ const Navbar = () => {
   return (
     <div className={`navbar ${showNavbar ? "visible" : "hidden"}`}>
       <div className="nav-logo">
-        <img src={logo} alt="" />
-        <p>MODERN</p>
+       
+      <Link to="/"> <img src={logo} alt="" /></Link>
+
+      <Link to="/"><p >MODERN</p></Link>
+          
+          
+        
       </div>
       <img className="nav-dropdown" src={nav_dropdown} onClick={dropdown_toggle} alt="" />
       
