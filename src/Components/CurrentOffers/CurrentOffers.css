@@ -161,3 +161,35 @@
   }
 }
 
+/* MEDIA QUERIES FOR SMALL SCREENS */
+@media (max-width: 600px) {
+  .offer-item {
+    width: 130px;
+    padding: 8px;
+  }
+
+  .offer-item img {
+    height: 120px;
+  }
+
+  .offers-title {
+    font-size: 20px;
+  }
+
+  /* Stack prices vertically on mobile */
+  .offer-prices {
+    flex-direction: column; /* vertical stacking */
+    gap: 4px;               /* smaller spacing */
+    align-items: center;
+    padding: 5px;
+  }
+
+  .offer-new {
+    font-size: 14px;         /* smaller text */
+  }
+
+  .offer-old {
+    font-size: 12px;         /* smaller text */
+  }
+}
+
